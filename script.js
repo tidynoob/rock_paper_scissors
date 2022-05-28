@@ -95,4 +95,5 @@ let playAgain = true;
 while (playAgain) {
     alert(playGame())
     playAgain = confirm("Do you want to play again?")
+    if (!playAgain) alert("Thanks for playing!")
 }
